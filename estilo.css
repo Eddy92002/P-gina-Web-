@@ -1,0 +1,84 @@
+body{
+	background-image:url(https://p4.wallpaperbetter.com/wallpaper/1024/831/627/nvidia-nvidia-gtx-minimalism-monochrome-wallpaper-preview.jpg); 
+	background-attachment: all;
+	
+	
+}
+
+#Encabezado{
+	background-image:url(https://us.123rf.com/450wm/asamask92/asamask921604/asamask92160400042/55517425-bot%C3%B3n-de-oro-amarillo-degradado-de-fondo-ilustraci%C3%B3n-vectorial.jpg?ver=6); 
+	
+	margin: auto;
+	height: 150px;
+	width: 1225px;
+	font-family: Arial;
+	font-size:150%;
+	}
+
+#baner:hover{
+	background-image: url(img/img2.jpg); 
+	margin: auto;	
+	background-repeat: no-repeat;
+	transform: scale(0.9);
+}
+
+
+
+
+.navegacion{
+	width: 1220px;
+	margin: 30px auto;
+	background: #fff;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+	position: absolute;
+	background: #333333;
+	width: 120%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+}
+
+footer{
+	background-color: white;
+	height: 150px;
+	width: 1225px;
+}
